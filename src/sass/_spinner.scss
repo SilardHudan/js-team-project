@@ -1,0 +1,73 @@
+.preloader {
+  /*фіксоване позиціонування*/
+  position: fixed;
+  /* координати положення */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* фоновий колір елемента */
+  background: black;
+  /* розміщуємо блок над усіма елементами на сторінці (має бути найбільше на сторінці) */
+  z-index: 999;
+  transition: 1s all;
+  opacity: 0.8;
+  visibility: visible;
+
+  .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    border: 10px solid white;
+    border-radius: 50%;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    border-right-color: transparent;
+    border-left-color: transparent;
+
+    animation: 1s spin infinite linear;
+  }
+
+  &.done {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .loader {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border: 12px solid white;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .loader {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    border: 14px solid white;
+    border-top-color: blue;
+    border-bottom-color: yellow;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+}

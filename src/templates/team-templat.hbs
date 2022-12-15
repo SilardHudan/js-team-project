@@ -1,0 +1,18 @@
+<div class="modal-team">
+    <div class="team-container">
+        {{#each this}}
+        <div class="team__item">
+            <div class="front-card">
+                <img class="team__img" src="{{photo}}" alt="{{role}}" />
+               <div class="team__item-information">
+                <p class="team__item-title">{{name}} {{surname}}</p>
+                <p class="team__item-text">{{role}}</p>
+               </div>
+            </div>
+            <div class="back-card">
+                <p class="team__back-title">{{role}}</p>
+                <p class="team__back-text">{{tasks}}</p>
+            </div>
+        </div>
+        {{/each}}
+    </div>

@@ -1,0 +1,35 @@
+.footer {
+    background-color: #F7F7F7;
+    padding:  29px 48px 30px 48px;
+    line-height: 1.14;
+    text-align: center;
+    color: #545454;
+    background-image: linear-gradient(to right, #0082D1, #FFD100 80%);
+    margin-top: auto;
+ 
+    @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.19;
+    padding: 30px 143px;
+}
+
+@media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.19;
+    padding: 30px 390px 28px 408px;
+}
+}
+
+.footer-svg {
+    margin-bottom: -1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    @media screen and (max-width: 768px) {
+   margin-top: 9px;
+    }
+}
+
+.footer-link {
+text-decoration: underline;
+color: #545454;
+}

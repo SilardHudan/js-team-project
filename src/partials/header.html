@@ -1,0 +1,56 @@
+<header class="header container">
+  <div class="header__container">
+    <nav class="nav">
+      <a class="logo__link" href="/src/index.html">
+        <svg class="logo__icon" width="24" height="24">
+          <use href="/src/images/image-header/symbol-defs.svg#icon-film"></use>
+        </svg>
+        <span class="logo__text">Filmoteka</span>
+      </a>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a id="home" class="nav__link current" href="/src/index.html">home</a>
+        </li>
+        <li class="nav__list-item">
+          <a id="library" class="nav__link" href="/src/my-library.html"
+            >my library</a
+          >
+        </li>
+      </ul>
+      <div class="nav__auth">
+        <button type="button" class="modal-open-btn">
+          <svg class="modal-open-btn__icon" width="26" height="26">
+            <use href="/src/images/image-header/symbol-defs.svg#icon-register_icon_219991"></use>
+          </svg>
+        </button>
+        <div class="navAuthContainer" id="navAuthContainer"></div>
+      </div>
+    </nav>
+    <div class="search">
+      <form class="search__form" data-search>
+        <input
+          class="search__input"
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Movie search"
+        />
+        <button type="submit" class="search__btn">
+          <svg class="icon__search" width="12" height="12">
+            <use href="/src/images/image-header/symbol-defs.svg#icon-search-2"></use>
+          </svg>
+        </button>
+      </form>
+       </div>
+       <p class="warning__message visually-hidden" data-message>Search result not successful. Enter the correct movie name and</p>
+       <div class="switcher">
+        <label id="switch" class="switcher-label">
+          <input type="checkbox" class="switcher-toggle" id="slider"/>
+          <span class="slider slider-round"></span>
+        </label>
+       </div>
+      <div class="bank">
+        <a href="https://prytulafoundation.org/uk/home/support_page" target="_blank"><img src="./images/bank.png" alt="bank"
+            style="width:85px;height:85px;border:0;"></a>
+      </div>
+</header>

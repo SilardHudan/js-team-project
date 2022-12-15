@@ -1,0 +1,86 @@
+export const teamCards = [
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03KFQ30DPH-ccb0372cb398-512',
+        name: 'Олексій',
+        surname: 'Бражник',
+        role: 'Team-lead',
+        tasks: 'Реалізовано підвантаження популярних фільмів та відображення частини фільмів при переході на кожну сторінку',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03L40ET9TL-98a068e6dd7b-512',
+        name: 'Анастасія',
+        surname: 'Котєльнікова',
+        role: 'Scrum-master',
+        tasks: 'Реалізовано модальне вікно "GoIT Students"',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03KPC2S5HV-0d7689a89f3e-512',
+        name: 'Сілард',
+        surname: 'Гудан',
+        role: 'Developer',
+        tasks: 'Зверстано шаблон модалки одного фільму',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03LTNKNLHW-558df94a59cd-512',
+        name: 'Олександр',
+        surname: 'Веклинець',
+        role: 'Developer',
+        tasks: 'Зверстано контейнер головної сторінки, реалізована пагінація ',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03LCBHPG65-a943fba29d7e-512',
+        name: 'Міша',
+        surname: 'Левко',
+        role: 'Developer',
+        tasks: 'Реалізована реєстрація користувача',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03LTNNEYBS-2bf24a3690c6-512',
+        name: 'Лара',
+        surname: 'Білобродська',
+        role: 'Developer',
+        tasks: 'Зверстано шаблон картки одного фільму',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03KWPQTBUK-35bb2bb0e703-512',
+        name: 'Євгеній',
+        surname: 'Прошкін',
+        role: 'Developer',
+        tasks: 'Зверстано контейнер та хедер для сторінки "My Library"',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03KQF6QNCE-2653ec731ac4-512',
+        name: 'Ольга',
+        surname: 'Мисарош',
+        role: 'Developer',
+        tasks: 'Зверстано футер',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03L12RAB1B-7ea49a07db43-512',
+        name: 'Антон',
+        surname: 'Клименко',
+        role: 'Developer',
+        tasks: 'Реалізований scroll',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03KRKY1T5K-b31fc2eeccbd-512',
+        name: 'Віталій',
+        surname: 'Никоненко',
+        role: 'Developer',
+        tasks: 'Реалізовано Loader',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03L7B7AR7T-0504ca780745-512',
+        name: 'Юрій',
+        surname: 'Дуда',
+        role: 'Developer',
+        tasks: 'Зверстано хедер головної сторінки, реалізований перехід на неї та відображення бібліотеки користувача',
+    },
+    {
+        photo: 'https://ca.slack-edge.com/T03L32N8Q9X-U03LBS6P0SW-c93fd144d979-512',
+        name: 'Олена',
+        surname: 'Гарник',
+        role: 'Mentor',
+        tasks: 'Реалізоване ревю попередньої версії проєкту'
+    }
+];

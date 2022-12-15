@@ -1,0 +1,26 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  
+  text-align: center;
+  align-items: center;
+  line-height: 30px;
+  background: rgb(235, 115, 3);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+padding: 15px;
+  display: none;
+  border: none;
+  z-index: 99;
+opacity: 0.6;
+}
+.back-to-top:hover {
+  background: black;
+  filter: saturate(100%);
+}
+.back-to-top-show {
+  display: block;
+}
+
